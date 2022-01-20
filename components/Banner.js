@@ -6,6 +6,7 @@ function Banner() {
     <div className="relative h-[300px] sm:h-[400px] lg:h-[500px] xl:h-[600px] 2xl:h-[700px]">
       <Image
         src="https://emanuelzini.com.ar/wp-content/uploads/2022/01/Airbnb-Banner1.webp"
+        alt="photo"
         layout="fill"
         objectFit="cover"
       />

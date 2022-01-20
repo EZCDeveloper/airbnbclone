@@ -17,6 +17,7 @@ function Header() {
         <Image
           src="https://emanuelzini.com.ar/wp-content/uploads/2021/12/airbnb.png"
           layout="fill"
+          alt="photo"
           objectFit="contain"
           objectPosition="left"
         />
