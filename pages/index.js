@@ -44,7 +44,10 @@ export default function Home({ exploreData, cardsData }) {
 
           <div className="flex space-x-3 overflow-scroll scrollbar-hide p-3 -ml-3">
             {cardsData?.map(({ img, title }) => (
-              <MediumCard key={img} img={img} title={title} />
+              <MediumCard 
+                key={img} 
+                img={img} 
+                title={title} />
             ))}
           </div>
         </section>
@@ -57,7 +60,7 @@ export default function Home({ exploreData, cardsData }) {
         />
       </main>
 
-      {/* Footer */}        
+      {/* Footer */}
       <Footer />
     </div>
   );
